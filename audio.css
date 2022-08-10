@@ -1,0 +1,427 @@
+/* box-sizing elements */
+
+* {
+  box-sizing: border-box;
+}
+/* Section*/
+
+/* contact section */
+.contact {
+  color: white;
+  background-color: black;
+  background-image: url(pictures/3_audio_page/audio7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: block;
+  position: absolute;
+  height: 1000px;
+  width: 1890px;
+  z-index: -1;
+}
+
+/* Mixing section */
+.mixing {
+  color: white;
+  background-color: black;
+  background-image: url(pictures/3_audio_page/audio5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: block;
+  position: absolute;
+  height: 800px;
+  width: 1890px;
+  top: 1000px;
+  z-index: -1;
+}
+
+/* Mastering section */
+
+.mastering {
+  color: white;
+  background-color: black;
+  background-image: url(pictures/3_audio_page/speakers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: block;
+  position: absolute;
+  height: 1000px;
+  width: 1890px;
+  top: 1800px;
+  z-index: -1;
+}
+
+/*headers section*/
+
+/*paragraphs section*/
+
+.audiopar1 {
+  margin-top: 60px;
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.EP_par1 {
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.LP_par1 {
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.single_list {
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.ep_list {
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.lp_list {
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.transition_par {
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.mixing_par1 {
+  margin-top: 60px;
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.mixing_list {
+  margin-left: 110px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.mixing_par2 {
+  margin-top: 60px;
+  margin-left: 120px;
+  font-size: 23px;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.mastering_par1 {
+  margin-top: 60px;
+  margin-left: 120px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.mastering_list {
+  margin-left: 110px;
+  font-size: 23px;
+  font-family: 'Luxurious Roman', sans-serif;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+/*main title*/
+
+h1 {
+  margin: 50px 100px 50px;
+  font-size: 60px;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+h1:hover {
+  color: tomato;
+}
+
+/*mixing title*/
+.mixing_heading {
+  margin: 50px 100px 50px;
+  font-size: 55px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+.mixing_heading:hover {
+  color: tomato;
+}
+
+/*mastering title*/
+.mastering_heading {
+  margin: 50px 100px 50px;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+.mastering_heading:hover {
+  color: tomato;
+}
+
+/* navigation bar settings */
+
+.header {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: hsla(360, 50%, 50%, 0.0);
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+
+.header li {
+  z-index: 1;
+  display: inline-block;
+  padding: 10px 22px 10px;
+}
+
+.header a {
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 300;
+  /*border: 1px solid red;*/
+  line-height: 29px;
+  font-family: "Luxurious Roman", cursive;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.3px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.header a:hover {
+  color: tomato;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header a:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*Home button*/
+
+button {
+  width: 125px;
+  height: 42px;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-decoration: none;
+  color: tomato;
+  background-color: white;
+  position: absolute;
+  /*margin-top: 20px;*/
+  margin-left: 325px;
+  margin-top: 30px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  box-shadow: 0px 4px 2px tomato;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button:active {
+  margin-top: 34px;
+  margin-left: 325px;
+  box-shadow: 0px 0px;
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+}
+
+.home_button {
+  width: 125px;
+  height: 42px;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-decoration: none;
+  color: tomato;
+  background-color: white;
+  position: absolute;
+  /*margin-top: 20px;*/
+  margin-left: 1050px;
+  top: 40px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  box-shadow: 0px 4px 2px tomato;
+}
+
+.home_button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home_button:active {
+  margin-left: 1050px;
+  top: 42px;
+  box-shadow: 0px 0px;
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+}
+
+/* media queries for screen sizes */
+
+/* super-wide monitor landscape */
+@media only screen and (min-width: 1600px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 24.5px;
+    line-height: 25px;
+    margin: 22px;
+  }
+}
+
+/* regular desktop landscape */
+@media only screen and (max-width: 1600px) and (min-width: 1024px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 10px;
+  }
+}
+
+
+/* tablet landscape */
+@media only screen and (max-width: 1024px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .audiopar1 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .single_list {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .EP_par1 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .ep_list {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .LP_par1 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .lp_list {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .transition_par {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .mixing_par1 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .mixing_par2 {
+    max-width: 500px;
+    font-size: 23px;
+  }
+
+  .mixing_list {
+    max-width: 500px;
+    font-size: 20px;
+  }
+}
+
+/* tablet portrait */
+@media only screen and (max-width: 768px) {
+  .header {
+    visibility: hidden;
+  }
+}
+
+/*extras*/
+
+/* navigation bar */
+
+/* nav, ul, li, a {
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  /*border: 1px solid red;
+  line-height: 29px;
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+}
+
+nav, ul, li, a:hover {
+  color: tomato !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav, ul, li, a:active {
+  color: white !important;
+  text-decoration: none;
+} */

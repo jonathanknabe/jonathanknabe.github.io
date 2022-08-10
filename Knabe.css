@@ -1,0 +1,594 @@
+/* box-sizing elements */
+
+* {
+  box-sizing: border-box;
+}
+
+/* titles and headings */
+
+h1 {
+  /*color: rgb(200, 25, 15);*/
+  color: hsla(0, 100%, 100%, 1);
+  opacity: 1;
+  margin: 70px 100px 40px;
+  font-size: 50px;
+  text-align: justify;
+  font-weight: 1000;
+  line-height: 65px;
+  max-width: 800px;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+.title {
+  font-size: 100px;
+  margin: 55px 100px 35px;
+}
+
+.title:hover {
+  color: tomato;
+}
+
+.bach1 {
+  color: white;
+  max-width: 450px;
+
+  max-height: 40px;
+  font-size: 25px;
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 55px;
+  margin-left: 140px;
+  text-align: justify;
+  font-family: "Luxurious Roman"; cursive;
+}
+
+.bach2 {
+  color: white;
+  max-width: 450px;
+  max-height: 40px;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 55px;
+  margin-left: 320px;
+  padding: 10px;
+  text-align: justify;
+  font-family: "Luxurious Roman"; cursive
+}
+
+h2 {
+  /*color: rgb(200, 25, 15);*/
+  color: hsla(0, 100%, 100%, 1);
+  opacity: 1;
+  margin: 85px 100px 5px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+.aboutmeheading {
+    /*color: rgb(200, 25, 15);*/
+  color: hsla(0, 100%, 100%, 1);
+  opacity: 1;
+  margin: 145px 80px 0px;
+  font-size: 75px;
+  font-weight: bold;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.aboutmeheading:hover {
+  color: tomato;
+}
+
+
+.blank_heading {
+  margin: 50px 0px 0px;
+  visibility: hidden;
+}
+
+.music_heading {
+  margin: 40px 160px 0px;
+  font-size: 95px;
+}
+
+.music_heading:hover {
+  color: tomato;
+}
+
+
+.audio_heading {
+  margin: 0px 100px 0px;
+  font-size: 70px;
+  margin-top: 25px;
+}
+
+.audio_heading:hover {
+  color: tomato;
+}
+
+.video_heading {
+  margin: 0px 100px 0px;
+  font-size: 90px;
+}
+
+.video_heading:hover {
+  color: tomato;
+}
+
+.voice_heading {
+  margin: 0px 50px 0px;
+  font-size: 80px;
+}
+
+.voice_heading:hover {
+  color: tomato;
+}
+
+.web_heading {
+  margin: 60px 80px 0px;
+  font-size: 80px;
+}
+
+.web_heading:hover {
+  color: tomato;
+}
+
+.contact_heading {
+  margin: 0px 80px 0px;
+  font-size: 80px;
+}
+
+.contact_heading:hover {
+  color: tomato;
+}
+
+
+/* paragraph text */
+
+p {
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+p .body {
+  color: white;
+  max-width: 40px;
+  max-height: 20px;
+  margin: 50px;
+}
+
+.musicpar1 {
+  margin-top: 40px;
+  margin-left: 195px;
+  font-size: 23px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.audiopar1 {
+  margin-top: 60px;
+  margin-left: 120px;
+  font-size: 23px;
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.videopar1 {
+  margin-top: 60px;
+  margin-left: 120px;
+  font-size: 23px;
+  max-width: 700px;
+  text-align: justify;
+}
+
+.voicepar1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 23px;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.webpar1 {
+  margin-top: 30px;
+  margin-left: 110px;
+  font-size: 23px;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.contactpar1 {
+  margin-top: 60px;
+  margin-left: 90px;
+  font-size: 23px;
+  max-width: 800px;
+  text-align: justify;
+}
+
+/* bullet point lists */
+
+.skills_list {
+  margin-left: 95px;
+  font-size: 20px;
+  font-family: "Mukta", cursive;
+}
+
+.instrument_list li {
+  margin-left: 105px;
+  font-size: 20px;
+
+}
+
+/* Button Section */
+
+button {
+  width: 125px;
+  height: 42px;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-decoration: none;
+  color: tomato;
+  background-color: white;
+  position: absolute;
+  /*margin-top: 20px;*/
+  margin-top: 30px;
+  margin-left: 300px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  box-shadow: 0px 4px 2px tomato;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button:active {
+  margin-top: 34px;
+  margin-left: 300px;
+  box-shadow: 0px 0px;
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+}
+
+/*.b1 {
+  margin-top: 10px;
+}
+
+.b2 {
+  margin-top: 25px;
+}*/
+
+/* navigation bar */
+
+.header {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: hsla(360, 50%, 50%, 0.0);
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+
+.header li {
+  z-index: 1;
+  display: inline-block;
+  padding: 5px 22px 5px;
+}
+
+.header a {
+  z-index: 1;
+  font-weight: 500;
+  /*border: 1px solid red;*/
+  line-height: 29px;
+  font-family: "Luxurious Roman", cursive;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.3px;
+  font-weight: normal;
+  font-size: 23px;
+
+}
+
+.header a:hover {
+  color: tomato;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header a:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+/* Jona Picture */
+
+.jonapic {
+  height: 250px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  background-position: right;
+  opacity: 1;
+  left: 120px;
+  right: auto;
+  top: -270px;
+  left: 640px;
+  z-index: -1;
+}
+
+/* Major Sections */
+
+/* title section / bio section */
+
+body {
+  background-image: url(pictures/bass.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*background-position: bottom;*/
+  background-size: 1900px;
+  position: relative;
+  max-width: 2500px;
+  min-width: inherit;
+  /*max-height: 1500px;*/
+  z-index: 1;
+}
+
+/* skills_list section */
+
+.skills_list {
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+/* instrument_list section */
+
+.instrument_list {
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+/* Hold You Close Album Link */
+
+.album_close_link {
+  position: relative;
+  left: 490px;
+  top: -200px;
+  opacity: .9;
+}
+
+/* Music section on Menu page */
+
+.music {
+  height: 865px;
+  z-index: -1;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 1474px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/music2.jpg);
+  background-position: top;
+  background-size: cover;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* Audio section on Menu page */
+
+.audio {
+  height: 800px;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 2342px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/3_audio_page/audio2.jpg);
+  background-size: cover;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* video section on Menu page */
+
+.video {
+  height: 800px;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 3146px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/film5.jpg);
+  background-size: cover;
+  background-position: center;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* voice/wedding section on Menu page */
+
+.voice {
+  height: 800px;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 3950px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/5_voice_page/wedding/wedding2.jpg);
+  background-size: cover;
+  /*background-size: 1500px;*/
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* web-design section on Menu page */
+
+.web {
+  height: 800px;
+  max-width: 2500px;
+  position: absolute;
+  display: block;
+  top: 4754px;
+  left: 0px;
+  right: 2px;
+  background-image: url(pictures/web.jpg);
+  background-position: top;
+  background-size: cover;
+  /*background-size: 1600px;*/
+  background-repeat: no-repeat;
+}
+
+/* contact section on Menu page */
+
+.contact {
+  height: 950px;
+  max-width: 2550px;
+  position: absolute;
+  display: block;
+  top: 5560px;
+  left: 0px;
+  right: 2px;
+  background-image: url(pictures/guitar18.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* footer */
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  display: block;
+  left: 0px;
+  right: 2px;
+  top: 6500px;
+  font-family: "Lobster", cursive;
+  margin: none;
+}
+
+/* media queries for screen sizes */
+
+/* super-wide monitor landscape */
+@media only screen and (min-width: 1600px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 24.5px;
+    line-height: 25px;
+    margin: 22px;
+  }
+}
+
+/* regular desktop landscape */
+@media only screen and (max-width: 1600px) and (min-width: 1024px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 10px;
+  }
+}
+
+
+/* tablet landscape */
+@media only screen and (max-width: 1024px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .audiopar1 {
+    max-width: 700px;
+    color: whitesmoke;
+  }
+
+  .voicepar1 {
+    margin-top: 20px;
+    max-width: 700px;
+    color: whitesmoke;
+  }
+}
+
+/* tablet portrait */
+@media only screen and (max-width: 768px) {
+  .header {
+    visibility: hidden;
+  }
+}
+
+/* mobile */
+
+
+
+/*random stuff/fails */
+
+
+/*.studiopic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.5;
+}*/
+/*.title {
+  background-image: url(pictures/studio.jpg);
+  height: 200px;
+  width: auto;
+}*/
+
+/* unnecessary navigation bar code*
+nav, ul, li, a {
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 300;
+  /*border: 1px solid red;
+  line-height: 29px;
+  font-family: "Luxurious Roman", cursive;
+  text-decoration: none;
+}
+/*
+nav, ul, li, a:hover {
+  color: tomato !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*nav, ul, li, a:active {
+  color: white !important;
+  text-decoration: none;
+}*/

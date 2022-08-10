@@ -1,0 +1,463 @@
+/* box-sizing elements */
+
+/* version 6pm Jan 27th, 2022*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* titles and headings */
+
+/*Jonathan Knabe main title*/
+h1 {
+  /*color: rgb(200, 25, 15);*/
+  color: hsla(0, 100%, 100%, 1);
+  opacity: 1;
+  margin: 70px 100px 40px;
+  font-size: 50px;
+  text-align: justify;
+  font-weight: 1000;
+  line-height: 65px;
+  max-width: 800px;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+.title {
+  font-size: 100px;
+  margin: 55px 100px 35px;
+}
+
+.title:hover {
+  color: tomato;
+}
+
+/* skills descriptions under my name */
+body, div, ul, b {
+  font-family: "Luxurious Roman", sans-serif;
+  margin-left: 10px;
+  padding: 2px;
+  font-size: 50px;
+  line-height: 65px;
+  max-width: 800px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+body, div, ul, b:hover {
+  cursor: pointer;
+  color: tomato;
+}
+
+/* bach quote German */
+.bach1 {
+  color: white;
+  max-width: 450px;
+  max-height: 40px;
+  font-size: 25px;
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 55px;
+  margin-left: 140px;
+  text-align: justify;
+  font-family: "Luxurious Roman"; cursive;
+}
+
+/* bach quote English */
+.bach2 {
+  color: white;
+  max-width: 450px;
+  max-height: 40px;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 55px;
+  margin-left: 320px;
+  padding: 10px;
+  text-align: justify;
+  font-family: "Luxurious Roman"; cursive
+}
+
+h2 {
+  /*color: rgb(200, 25, 15);*/
+  color: hsla(0, 100%, 100%, 1);
+  opacity: 1;
+  margin: 85px 100px 5px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+.aboutmeheading {
+    /*color: rgb(200, 25, 15);*/
+  color: hsla(0, 100%, 100%, 1);
+  opacity: 1;
+  margin: 65px 80px 0px;
+  font-size: 75px;
+  font-weight: bold;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.aboutmeheading:hover {
+  color: tomato;
+}
+
+
+.blank_heading {
+  margin: 50px 0px 0px;
+  visibility: hidden;
+}
+
+.music_heading {
+  margin: 0px 100px 0px;
+  font-size: 95px;
+}
+
+.music_heading:hover {
+  color: tomato;
+}
+
+.audio_heading {
+  margin: 0px 100px 0px;
+  font-size: 70px;
+}
+
+.audio_heading:hover {
+  color: tomato;
+}
+
+.video_heading {
+  margin: 0px 250px 0px;
+  font-size: 90px;
+}
+
+.video_heading:hover {
+  color: tomato;
+}
+
+.voice_heading {
+  margin: 0px 50px 0px;
+  font-size: 80px;
+}
+
+.voice_heading:hover {
+  color: tomato;
+}
+
+.web_heading {
+  margin: 0px 80px 0px;
+  font-size: 80px;
+}
+
+.web_heading:hover {
+  color: tomato;
+}
+
+.contact_heading {
+  margin: 0px 80px 0px;
+  font-size: 80px;
+}
+
+.contact_heading:hover {
+  color: tomato;
+}
+
+
+/* paragraph text */
+
+p {
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+  /* messing with overflow ideas overflow-y: scroll;*/
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+p .body {
+  color: white;
+  max-width: 40px;
+  max-height: 20px;
+  margin: 50px;
+}
+
+.musicpar1 {
+  margin-top: 40px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+/* bullet point lists */
+
+.skills_list {
+  margin-left: 95px;
+  font-size: 20px;
+  font-family: "Mukta", cursive;
+}
+
+.instrument_list {
+  margin-left: 145px;
+  font-size: 20px;
+  font-family: "Mukta", cursive;
+}
+
+/* Button Section */
+
+button {
+  width: 125px;
+  height: 42px;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-decoration: none;
+  color: tomato;
+  background-color: white;
+  position: absolute;
+  /*margin-top: 20px;*/
+  margin-left: 325px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  box-shadow: 0px 4px 2px tomato;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button:active {
+  margin-top: 4px;
+  margin-left: 325px;
+  box-shadow: 0px 0px;
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+}
+
+/*.b1 {
+  margin-top: 10px;
+}
+
+.b2 {
+  margin-top: 25px;
+}*/
+
+/* navigation bar */
+
+nav, ul, li, a {
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 300;
+  /*border: 1px solid red;*/
+  line-height: 29px;
+  font-family: "Luxurious Roman", cursive;
+  text-decoration: none;
+}
+
+nav, ul, li, a:hover {
+  color: tomato !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav, ul, li, a:active {
+  color: white !important;
+  text-decoration: none;
+}
+
+.header {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: hsla(360, 50%, 50%, 0.0);
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+
+.header li {
+  display: inline-block;
+  padding: 10px 22px 10px;
+}
+
+.header a {
+  color: white;
+  letter-spacing: 0.3px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/* Jona Picture */
+
+.jonapic {
+  height: 250px;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  opacity: 0.9;
+  left: 120px;
+  right: auto;
+  top: 50px;
+  z-index: -1;
+}
+
+/* Major Sections */
+
+/* title section / bio section */
+
+body {
+  background-image: url(pictures/bass.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*background-position: bottom;*/
+  background-size: 1900px;
+  position: relative;
+  max-width: 2500px;
+  min-width: inherit;
+  /*max-height: 1500px;*/
+  z-index: 1;
+}
+
+/* Music section on Menu page */
+
+.music {
+  height: 865px;
+  z-index: -1;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 1474px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/guitar3.jpg);
+  background-position: top;
+  background-size: cover;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* Audio section on Menu page */
+
+.audio {
+  height: 800px;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 2342px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/mixer.jpg);
+  background-size: cover;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* video section on Menu page */
+
+.video {
+  height: 800px;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 3146px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/film1.jpg);
+  background-size: cover;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* voice section on Menu page */
+
+.voice {
+  height: 800px;
+  max-width: 2500px;
+  margin-top: 0px;
+  top: 3950px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  right: 2px;
+  background-image: url(pictures/mic.jpg);
+  background-size: cover;
+  /*background-size: 1500px;*/
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* web-design section on Menu page */
+
+.web {
+  height: 800px;
+  max-width: 2500px;
+  position: absolute;
+  display: block;
+  top: 4754px;
+  left: 0px;
+  right: 2px;
+  background-image: url(pictures/web.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background-size: 1600px;*/
+  background-repeat: no-repeat;
+}
+
+/* contact section on Menu page */
+
+.contact {
+  height: 750px;
+  max-width: 2550px;
+  position: absolute;
+  display: block;
+  top: 5560px;
+  left: 0px;
+  right: 2px;
+  background-image: url(pictures/guitar18.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background-size: 2000px;*/
+  background-repeat: no-repeat;
+}
+
+/* footer */
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  display: block;
+  left: 0px;
+  right: 2px;
+  top: 6250px;
+  font-family: "Lobster", cursive;
+  margin: none;
+}
+
+
+
+
+
+/*random stuff/fails */
+
+
+/*.studiopic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.5;
+}*/
+/*.title {
+  background-image: url(pictures/studio.jpg);
+  height: 200px;
+  width: auto;
+}*/

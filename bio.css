@@ -1,0 +1,234 @@
+/* box-sizing elements */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Bio paragraph description*/
+
+.biopar1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 55px;
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+.lifelist {
+  color: white;
+  font-size: 24px;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+.lifelist2 {
+  color: white;
+  font-size: 24px;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+.biopar2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 40px;
+  font-family: 'Luxurious Roman', sans-serif;
+  line-height: 30px;
+}
+
+/* main sections */
+.contact {
+  color: white;
+  background-color: black;
+  background-image: url(pictures/1_bio_page/berlin11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: block;
+  position: relative;
+  top: 0px;
+  height: 1100px;
+  z-index: -1;
+}
+
+/*
+.cville {
+  color: white;
+  background-color: black;
+  background-image: url(pictures/1_bio_page/cville1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: relative;
+  top: 700px;
+  height: 1000px;
+  z-index: -1;
+}
+*/
+/*header section*/
+
+h1 {
+  margin: 50px 100px 50px;
+  font-size: 60px;
+  font-family: "Luxurious Roman", sans-serif;
+}
+
+h1:hover {
+  color: tomato;
+}
+
+/* navigation bar settings */
+
+.header {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: hsla(360, 50%, 50%, 0.0);
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+
+.header li {
+  z-index: 1;
+  display: inline-block;
+  padding: 10px 22px 10px;
+}
+
+.header a {
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 300;
+  /*border: 1px solid red;*/
+  line-height: 29px;
+  font-family: "Luxurious Roman", cursive;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.3px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.header a:hover {
+  color: tomato;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header a:active {
+  color: white;
+  text-decoration: none;
+}
+
+/*Home button*/
+
+button {
+  width: 125px;
+  height: 42px;
+  text-transform: capitalize;
+  font-size: 14px;
+  text-decoration: none;
+  color: tomato;
+  background-color: white;
+  position: absolute;
+  /*margin-top: 20px;*/
+  margin-left: 600px;
+  top: 20px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  box-shadow: 0px 4px 2px tomato;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button:active {
+  margin-top: 4px;
+  margin-left: 600px;
+  box-shadow: 0px 0px;
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: tomato;
+  color: white;
+}
+
+/* media queries for screen sizes */
+
+/* super-wide monitor landscape */
+@media only screen and (min-width: 1600px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 24.5px;
+    line-height: 25px;
+    margin: 22px;
+  }
+}
+
+/* regular desktop landscape */
+@media only screen and (max-width: 1600px) and (min-width: 1024px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 10px;
+  }
+}
+
+
+/* tablet landscape */
+@media only screen and (max-width: 1024px) {
+  .header a {
+    display: flex;
+    flex-shrink: 2;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+/* tablet portrait */
+@media only screen and (max-width: 768px) {
+  .header {
+    visibility: hidden;
+  }
+}
+
+/*extras*/
+
+/* navigation bar */
+
+/* nav, ul, li, a {
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  /*border: 1px solid red;
+  line-height: 29px;
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+}
+
+nav, ul, li, a:hover {
+  color: tomato !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav, ul, li, a:active {
+  color: white !important;
+  text-decoration: none;
+} */
